@@ -1,0 +1,20 @@
+.game.playing .cell.value-0 {
+  cursor: pointer; }
+  .game.playing .cell.value-0.player-1:hover {
+    background-color: rgba(255, 0, 0, 0.5); }
+  .game.playing .cell.value-0.player-2:hover {
+    background-color: rgba(0, 0, 255, 0.5); }
+
+.cell {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none; }
+  .cell.value-1 {
+    color: red; }
+  .cell.value-2 {
+    color: blue; }
